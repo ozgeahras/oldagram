@@ -57,9 +57,9 @@ for (let i = 0; i < posts.length; i++) {
               />
               <div class="container">
                 <div class="icons">
-                  <img src="/images/icon-heart.png" alt="icon heart" />
-                  <img src="/images/icon-comment.png" alt="icon comment" />
-                  <img src="/images/icon-dm.png" alt="icon dm" />
+                  <img src="images/icon-heart.png" alt="icon heart" />
+                  <img src="images/icon-comment.png" alt="icon comment" />
+                  <img src="images/icon-dm.png" alt="icon dm" />
                 </div>
                 <div class="comment">
                   <p class="like" id="like">${posts[i].likes} likes</p>
