@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 375px;
+  font-family: "Source Sans Pro", sans-serif;
+  background: #ffffff;
+}
+
+/* layout header*/
+header {
+  height: 67px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 67px;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+.logo {
+  height: 33.02px;
+  width: 127px;
+  margin-left: 15px;
+}
+
+/* main */
+
+main {
+  height: 545px;
+}
+
+.avatar {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.login {
+  background-image: url(/images/benim\ foto.jpeg);
+}
+
+.user {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user p {
+  width: 307px;
+  margin: 0;
+}
+
+.user-photo {
+  background-image: url(/images/avatar-vangogh.jpg);
+}
+
+.post-photo {
+  width: 375px;
+  height: 375px;
+  background-size: cover;
+}
+
+.container {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.icons {
+  width: 110px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.like,
+.username {
+  font-weight: 700;
+}
+
+.section {
+  border-bottom: 20px solid #ededed;
+}
